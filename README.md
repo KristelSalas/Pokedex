@@ -11,16 +11,20 @@
 Tener Node.js instalado en tu máquina.
 
 **Pasos para ejecutar la aplicación localmente:**
-Clona este repositorio en tu máquina local
+- Clona este repositorio en tu máquina local
+  
   ```git clone https://github.com/tu-usuario/Pokedex.git```
 
-Navega a la carpeta del proyecto
+- Navega a la carpeta del proyecto
+  
   ```cd Pokedex```
   
-Instala las dependencias utilizando npm
+- Instala las dependencias utilizando npm
+  
   ```npm install```
 
-Inicia la aplicación en modo de desarrollo
+- Inicia la aplicación en modo de desarrollo
+  
   ```npm run dev```
 
 
