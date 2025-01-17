@@ -2,7 +2,7 @@ import PokemonListItem from './PokemonListItem/PokemonListItem';
 
 import './PokemonList.css';
 
-const PokemonList = ({ fetchNewPokemons, onPokemonClick, pokemons, loading }) => {
+const PokemonList = ({ fetchNewPokemons, onPokemonClick, pokemons, loading, selectedPokemonIndex }) => {
   const handleScroll = (e) => {
     const bottom = e.target.scrollHeight === e.target.scrollTop + e.target.clientHeight;
     if (bottom) {
@@ -18,6 +18,7 @@ const PokemonList = ({ fetchNewPokemons, onPokemonClick, pokemons, loading }) =>
           pokemon={pokemon}
           onClick={onPokemonClick}
           position={index}
+          isSelected={selectedPokemonIndex === index}
         />
       ))}
       {loading && <div className="loading">Cargando...</div>}

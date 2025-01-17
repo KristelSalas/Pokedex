@@ -25,3 +25,8 @@
     margin-right: 20px;
     color: #d2c2c2;
   }
+
+  .pokemon-item.selected {
+    background-color: #700808; 
+    transition: background-color 0.3s ease;
+  }

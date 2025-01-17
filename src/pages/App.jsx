@@ -44,8 +44,10 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const [offset, setOffset] = useState(0);
   const [selectedPokemon, setSelectedPokemon] = useState(null);
+  const [selectedPokemonIndex, setSelectedPokemonIndex] = useState(null);
 
   const onPokemonClick = (position) => {
+    setSelectedPokemonIndex(position);
     if (pokemonsFound) {
       setSelectedPokemon(pokemonsFound[position]);
     }
@@ -96,6 +98,7 @@ const App = () => {
               onPokemonClick={onPokemonClick}
               pokemons={pokemonList}
               loading={loading}
+              selectedPokemonIndex={selectedPokemonIndex}
             />
           </Col>
           <Col xs={8} md={9} className='right-column'>
