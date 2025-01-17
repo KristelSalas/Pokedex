@@ -44,5 +44,7 @@ Ver Detalles: Haz clic en cualquier Pokémon de la lista para ver más detalles 
 
 /src
   /components  -> Componentes de la aplicación
+  
   /pages       -> Componente principal
+  
   /services    -> Funciones para interactuar con el API
