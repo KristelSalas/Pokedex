@@ -8,7 +8,7 @@ const Pokemon = ({ name, imageUrl }) => {
         alt={name}
         className="pokemon-image-evolution"
       />
-      <h4>{name}</h4>
+      <h4>{name.charAt(0).toUpperCase() + name.slice(1)}</h4>
     </div>
   );
 };

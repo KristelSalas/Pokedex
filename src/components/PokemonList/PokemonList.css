@@ -10,13 +10,12 @@
 }
 
 .pokemon-list::-webkit-scrollbar {
-  width: 15px;
+  width: 18px;
 }
 
 .pokemon-list::-webkit-scrollbar-thumb {
-  background-color: #e97070;
+  background-color: #e34040;
   border-radius: 5px;
-  border: 2px solid #b13333;
 }
 
 .pokemon-list::-webkit-scrollbar-track {
