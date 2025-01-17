@@ -1,0 +1,44 @@
+
+.pokemon-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pokemon-search-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .pokemon-top-row {
+    height: 40%;
+    overflow-y: auto;
+  }
+
+  .pokemon-top-row::-webkit-scrollbar {
+    width: 0; 
+  }
+
+  .separator-line {
+    height: 2px;
+    background-color: #f2aaaa;
+    margin: 30px 0 20px 0;
+  }
+  
+  .pokemon-bottom-row {
+    height: 40%;
+    overflow-y: auto;
+  }
+
+  .pokemon-bottom-row::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  .pokemon-bottom-row h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+    

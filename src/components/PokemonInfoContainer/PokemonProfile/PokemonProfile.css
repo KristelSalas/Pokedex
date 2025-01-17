@@ -1,0 +1,33 @@
+.pokemon-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .pokemon-profile-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+  }
+  
+  .pokemon-profile-name {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+  }
+  
+  .pokemon-profile-types {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .pokemon-profile-type {
+    background-color: #f9e6e6;
+    padding: 0.1rem;
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+    text-transform: capitalize;
+    width: 100px;
+  }
+  

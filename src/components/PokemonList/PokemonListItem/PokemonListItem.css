@@ -1,0 +1,27 @@
+.pokemon-item {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #5f0505;
+    height: 11%;
+    cursor: pointer;
+  }
+  
+  .pokemon-image {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+  }
+  
+  .pokemon-name {
+    flex-grow: 1;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #d2c2c2;
+  }
+  
+  .pokemon-number {
+    margin-right: 20px;
+    color: #d2c2c2;
+  }
