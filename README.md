@@ -9,11 +9,14 @@
 
 **Instalación y Configuración**
 
-**Requisitos previos**
+**Requisitos previos:**
+
 Tener Node.js instalado en tu máquina.
 
 
 **Pasos para ejecutar la aplicación localmente:**
+
+
 - Clona este repositorio en tu máquina local
   
   ```git clone https://github.com/tu-usuario/Pokedex.git```
