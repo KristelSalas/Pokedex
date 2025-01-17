@@ -6,10 +6,12 @@
 - Axios: Cliente HTTP para realizar solicitudes a APIs.
 
 
+
 **Instalación y Configuración**
 
 **Requisitos previos**
 Tener Node.js instalado en tu máquina.
+
 
 **Pasos para ejecutar la aplicación localmente:**
 - Clona este repositorio en tu máquina local
@@ -29,6 +31,7 @@ Tener Node.js instalado en tu máquina.
   ```npm run dev```
 
 
+
 **Instrucciones de uso para el usuario:**
 
 Explora Pokémon: La aplicación muestra una lista de Pokémon. Puedes hacer scroll para cargar más Pokémon.
@@ -36,12 +39,10 @@ Buscar Pokémon: Usa la barra de búsqueda para encontrar un Pokémon específic
 Ver Detalles: Haz clic en cualquier Pokémon de la lista para ver más detalles como su imagen, tipo, altura, peso, y habilidades.
 
 
+
 **Estructura del Proyecto:**
 
 /src
-
   /components  -> Componentes de la aplicación
-  
   /pages       -> Componente principal
-  
   /services    -> Funciones para interactuar con el API
