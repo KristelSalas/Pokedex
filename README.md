@@ -38,7 +38,9 @@ Tener Node.js instalado en tu máquina.
 **Instrucciones de uso para el usuario:**
 
 Explora Pokémon: La aplicación muestra una lista de Pokémon. Puedes hacer scroll para cargar más Pokémon.
+
 Buscar Pokémon: Usa la barra de búsqueda para encontrar un Pokémon específico por nombre.
+
 Ver Detalles: Haz clic en cualquier Pokémon de la lista para ver más detalles como su imagen, tipo, altura, peso, y habilidades.
 
 
@@ -46,6 +48,7 @@ Ver Detalles: Haz clic en cualquier Pokémon de la lista para ver más detalles 
 **Estructura del Proyecto:**
 
 /src
+
   /components  -> Componentes de la aplicación
   
   /pages       -> Componente principal
